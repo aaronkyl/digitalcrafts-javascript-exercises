@@ -1,4 +1,4 @@
-function caesarCipher(plaintext, key) {
+function cipher(plaintext, key) {
     let ciphertext = [];
     let plaintextArray = plaintext.split('');
     plaintextArray.forEach( function (char) {
@@ -18,4 +18,4 @@ function caesarCipher(plaintext, key) {
     return ciphertext.join('');
 }
 
-console.log(caesarCipher("Hello 24 human People", 1));
+console.log(cipher("Hello 24 human People", 1));
