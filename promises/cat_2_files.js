@@ -1,5 +1,4 @@
 var fsp = require('fs-promise');
-var fs = require('fs');
 
 var file1promise = fsp.readFile('text1.txt');
 var file2promise = fsp.readFile('text2.txt');
