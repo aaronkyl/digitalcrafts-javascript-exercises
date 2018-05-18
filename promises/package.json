@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "fs-promise": "^2.0.3",
+    "pg-promise": "^8.4.4",
+    "prompt-promise": "^1.0.3",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
   }
